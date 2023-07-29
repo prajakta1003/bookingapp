@@ -12,6 +12,11 @@
     max-width: 1024px;
     margin: 20px 0px 100px 0px;
 }
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+
+
+}
 
 .headerList{
     display: flex;
@@ -84,6 +89,7 @@
 .date{
     position: absolute;
     top: 50px;
+    z-index: 2;
 
 }
 
@@ -93,6 +99,7 @@
     border-color: white;
     color: gray;
     border-radius: 5px;
+    z-index: 2;
 
 }
 
